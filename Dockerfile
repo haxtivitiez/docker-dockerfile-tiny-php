@@ -1,7 +1,5 @@
 FROM php:5.6-apache
 
-ENV ENVIRONMENT production
-
 RUN echo "[PHP] \ndate.timezone = Asia/Bangkok" >> /usr/local/etc/php/php.ini
 
 RUN apt-get -y update \
